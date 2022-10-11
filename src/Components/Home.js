@@ -7,7 +7,7 @@ const Home = () => {
     const quiztopics = quiztopicsRaw.data;
     console.log(quiztopics)
     return (
-        <div className='container '>
+        <div className='container mb-5'>
             <div className='col d-lg-flex text-center align-items-center'>
                 <div className='container col-md-12 col-sm-12 col-lg-6'>
                     <img className='img-fluid' src='https://keyofsuccess.in/wp-content/uploads/2021/03/tyk.png'></img>
