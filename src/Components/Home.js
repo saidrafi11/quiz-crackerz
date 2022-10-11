@@ -12,7 +12,7 @@ const Home = () => {
                 <div className='container col-md-12 col-sm-12 col-lg-6'>
                     <img className='img-fluid' src='https://keyofsuccess.in/wp-content/uploads/2021/03/tyk.png'></img>
                 </div>
-                <div className='col-md-12 col-sm-12 col-lg-6'> <h1>Test your knowledge by taking our mock test!</h1></div>
+                <div className='col-md-12 col-sm-12 col-lg-6'> <h1>Test your knowledge by taking our free mock test!</h1></div>
 
             </div>
             <section>
