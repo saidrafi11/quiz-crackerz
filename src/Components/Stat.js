@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { Bar, BarChart, CartesianGrid, Legend, Tooltip, XAxis, YAxis } from 'recharts';
+import { Bar, BarChart, CartesianGrid, Legend, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 import { QuizContext } from './Root';
 
 const Stat = () => {
@@ -14,8 +14,9 @@ const Stat = () => {
             
             </section>
 
-            <div>
-            <BarChart width={730} height={500} data={quiztopics}>
+            <div className='container'>
+            <ResponsiveContainer width="95%" height={400}>       
+            <BarChart width={500} height={250} data={quiztopics}>
   <CartesianGrid strokeDasharray="3 3" />
   <XAxis dataKey="name" />
   <YAxis />
@@ -24,6 +25,7 @@ const Stat = () => {
   <Bar dataKey="total" fill="#8884d8" />
   
 </BarChart>
+</ResponsiveContainer>
             </div>
         </div>
     );
