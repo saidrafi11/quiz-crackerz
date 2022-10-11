@@ -12,7 +12,7 @@ const Nav = () => {
     </button>
 
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse " id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
           <Link class="nav-link active" aria-current="page" to="quiz">Quiz</Link>
@@ -20,7 +20,7 @@ const Nav = () => {
 
 
         <li class="nav-item">
-          <Link class="nav-link" to="#">Link</Link>
+          <Link class="nav-link" to="statistics">Statistics</Link>
         </li>
          <li class="nav-item">
           <Link class="nav-link" to="blog">Blog</Link>

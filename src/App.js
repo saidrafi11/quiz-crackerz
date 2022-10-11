@@ -5,6 +5,7 @@ import Root from './Components/Root';
 import Home from './Components/Home';
 import QuizPage from './Components/QuizPage';
 import Blog from './Components/Blog';
+import Stat from './Components/Stat';
 
 const router = createBrowserRouter([
 {
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
     {
       path:'blog',
       element:<Blog></Blog>
+    },
+    {
+      path:'statistics',
+      element:<Stat></Stat>
     }
 
     
