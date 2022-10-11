@@ -9,20 +9,20 @@ const QCard = ({ questionObj }) => {
     console.log(questionObj)
     const { question, options, correctAnswer
     } = questionObj;
-  
+
 
     const handleCorrectAns = clickedAns => {
-        
+
         if (clickedAns === correctAnswer) {
             swal("Congratulations!!", "Your ans is correct!", "success");
-            
+
         } else {
             swal("Good try!", "You have choose wrong option", "error");
         }
 
     }
 
-    const showCorrectAns = ans =>{
+    const showCorrectAns = ans => {
         swal("Correct answere", `${ans}`, "info");
     }
 
@@ -32,7 +32,7 @@ const QCard = ({ questionObj }) => {
             <div className="list-group g-2">
 
                 <div className='justify-contant-right p-2 d-flex justify-content-end'>
-                   <button onClick={()=>showCorrectAns(correctAnswer)} className='btn btn-light'><FontAwesomeIcon icon={faEye}/></button>
+                    <button onClick={() => showCorrectAns(correctAnswer)} className='btn btn-light'><FontAwesomeIcon icon={faEye} /></button>
                 </div>
 
                 <div class="list-group-item list-group-item-action active" aria-current="true">
