@@ -32,7 +32,7 @@ const QCard = ({ questionObj }) => {
 
 
     return (
-        <div className='g-2 container'>
+        <div className='g-2 container mb-3'>
             <div className="list-group g-2 shadow">
 
                 <div className='justify-contant-right p-2 d-flex justify-content-end'>
