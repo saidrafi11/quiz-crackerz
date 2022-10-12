@@ -9,8 +9,8 @@ const QuizPage = () => {
     const questions = quiz.data.questions;
     console.log(questions)
     return (
-        <div className='container justify-content-center col-lg-6 col-md-6 col-sm-12'>
-            <section className='text-center'>
+        <div className='container justify-content-center col-lg-6 col-md-6 col-sm-12 mb-5'>
+            <section className='text-center mb-3'>
                 <h1 className='text-align-center text-info'>Here are the questions</h1>
                 <h3 className='text-align-center'>Select the best option</h3>
             </section>

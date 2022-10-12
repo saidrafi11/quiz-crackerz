@@ -4,7 +4,7 @@ import './Nav.css'
 
 const Nav = () => {
     return (
-        <div>
+        <div className='shadow p-3 mb-5 bg-white rounded'>
             <nav class="navbar navbar-expand-lg bg-custom-nav">
   <div class="container-fluid">
     <Link class="navbar-brand" to="/"><h1>Quizbuzz</h1></Link>
