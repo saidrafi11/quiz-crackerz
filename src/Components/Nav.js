@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './Nav.css'
 
 const Nav = () => {
     return (
         <div>
-            <nav class="navbar navbar-expand-lg bg-light">
+            <nav class="navbar navbar-expand-lg bg-custom-nav">
   <div class="container-fluid">
     <Link class="navbar-brand" to="/"><h1>Quizbuzz</h1></Link>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,10 +21,10 @@ const Nav = () => {
 
 
         <li class="nav-item">
-          <Link class="nav-link" to="statistics">Statistics</Link>
+          <Link class="nav-link active" to="statistics">Statistics</Link>
         </li>
          <li class="nav-item">
-          <Link class="nav-link" to="blog">Blog</Link>
+          <Link class="nav-link active" to="blog">Blog</Link>
         </li>
       </ul>
       

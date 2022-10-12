@@ -22,7 +22,7 @@ const Stat = () => {
                         <YAxis />
                         <Tooltip />
                         <Legend />
-                        <Bar dataKey="total" fill="#8884d8" />
+                        <Bar dataKey="total" fill="#33ccff" />
 
                     </BarChart>
                 </ResponsiveContainer>

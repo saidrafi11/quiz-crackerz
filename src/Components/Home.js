@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import QuizTopic from './QuizTopic';
 import { QuizContext } from './Root';
+import './Nav.css';
 
 const Home = () => {
     const quiztopicsRaw = useContext(QuizContext);

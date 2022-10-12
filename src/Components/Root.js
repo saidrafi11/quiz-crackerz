@@ -1,5 +1,6 @@
 import React, { createContext } from 'react';
 import { Outlet, useLoaderData } from 'react-router-dom';
+import Footer from './Footer';
 import Nav from './Nav';
 
 export const QuizContext = createContext([])
@@ -13,6 +14,7 @@ const Root = () => {
        
             <Nav></Nav>
             <Outlet></Outlet>
+            
         
        </QuizContext.Provider>
     );
